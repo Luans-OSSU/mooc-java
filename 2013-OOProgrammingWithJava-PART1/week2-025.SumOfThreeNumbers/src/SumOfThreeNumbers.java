@@ -11,6 +11,10 @@ public class SumOfThreeNumbers {
 
         // Write your program here
         // Use only variables sum and read
+        for (int i = 0; i< 3; i++) {
+            read = Integer.parseInt(reader.nextLine());
+            sum += read;
+        }
 
         System.out.println("Sum: " + sum);
     }

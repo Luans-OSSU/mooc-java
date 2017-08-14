@@ -7,6 +7,11 @@ public class LowerLimitAndUpperLimit {
         Scanner reader = new Scanner(System.in);
 
         // write your code here
-
+        int first = Integer.parseInt(reader.nextLine());
+        int last = Integer.parseInt(reader.nextLine());
+        
+        for(int i = first; i <= last; i++) {
+            System.out.println(i);
+        }
     }
 }
